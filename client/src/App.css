@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  background-color: #121212;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+input {
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resize-observer {
+  animation: resize-observer-fix-animation 0.001s;
+}
+
+@keyframes resize-observer-fix-animation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.99;
+  }
+}
